@@ -3,6 +3,8 @@
     <array name="preloaded_fonts" translatable="false">
         <item>@font/aclonica</item>
         <item>@font/akaya_telivigala</item>
+        <item>@font/allura</item>
+        <item>@font/amita</item>
         <item>@font/armata</item>
         <item>@font/nova_square</item>
         <item>@font/rowdies_light</item>

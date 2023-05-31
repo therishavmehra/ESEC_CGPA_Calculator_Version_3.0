@@ -77,8 +77,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp"
                 android:gravity="center"
-                android:text="Enter the details of one semester at a time"
+                android:text="@string/acc_cgpatxt"
                 android:textColor="#FF5722"
                 android:textSize="14sp"
                 android:textStyle="bold" />
@@ -86,7 +87,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginBottom="20dp"
+                android:layout_marginBottom="30dp"
                 android:orientation="horizontal">
 
                 <TextView
@@ -103,6 +104,8 @@
 
                 <EditText
                     android:id="@+id/num_subjects"
+
+                    android:gravity="center"
                     android:layout_width="40dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -165,7 +168,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/aclonica"
-                    android:text="Credits"
+                    android:text="@string/credits"
                     android:textColor="#05177A"
                     android:textSize="24sp" />
 
@@ -181,7 +184,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="10dp"
                     android:fontFamily="@font/aclonica"
-                    android:text="Grades"
+                    android:text="@string/grades"
                     android:textColor="#05177A"
                     android:textSize="24sp" />
 
@@ -196,6 +199,7 @@
                 <EditText
                     android:id="@+id/sub1"
                     android:layout_width="60dp"
+                    android:gravity="center"
                     android:layout_height="wrap_content"
                     android:background="@drawable/btn"
                     android:ems="10"
@@ -239,6 +243,7 @@
                     android:inputType="numberDecimal"
                     android:maxLength="4"
                     android:minWidth="50dp"
+                    android:gravity="center"
                     android:padding="5dp"
                     android:textColor="#000000"
                     android:textSize="25sp"
@@ -277,6 +282,7 @@
                     android:minWidth="50dp"
                     android:padding="5dp"
                     android:textColor="#000000"
+                    android:gravity="center"
                     android:textSize="25sp"
                     tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
@@ -313,6 +319,7 @@
                     android:minWidth="50dp"
                     android:padding="5dp"
                     android:textColor="#000000"
+                    android:gravity="center"
                     android:textSize="25sp"
                     tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
@@ -348,6 +355,7 @@
                     android:maxLength="4"
                     android:minWidth="50dp"
                     android:padding="5dp"
+                    android:gravity="center"
                     android:textColor="#000000"
                     android:textSize="25sp"
                     tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
@@ -385,6 +393,7 @@
                     android:minWidth="50dp"
                     android:padding="5dp"
                     android:textColor="#000000"
+                    android:gravity="center"
                     android:textSize="25sp"
                     tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
@@ -421,6 +430,7 @@
                     android:minWidth="50dp"
                     android:padding="5dp"
                     android:textColor="#000000"
+                    android:gravity="center"
                     android:textSize="25sp"
                     tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
@@ -455,6 +465,7 @@
                     android:inputType="numberDecimal"
                     android:maxLength="4"
                     android:minWidth="50dp"
+                    android:gravity="center"
                     android:padding="5dp"
                     android:textColor="#000000"
                     android:textSize="25sp"
@@ -492,6 +503,7 @@
                     android:maxLength="4"
                     android:minWidth="50dp"
                     android:padding="5dp"
+                    android:gravity="center"
                     android:textColor="#000000"
                     android:textSize="25sp"
                     tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
@@ -528,6 +540,7 @@
                     android:maxLength="4"
                     android:minWidth="50dp"
                     android:padding="5dp"
+                    android:gravity="center"
                     android:textColor="#000000"
                     android:textSize="25sp"
                     tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
@@ -566,6 +579,7 @@
                     android:padding="5dp"
                     android:textColor="#000000"
                     android:textSize="25sp"
+                    android:gravity="center"
                     tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
                 <View
@@ -600,6 +614,7 @@
                     android:minWidth="50dp"
                     android:padding="5dp"
                     android:textColor="#000000"
+                    android:gravity="center"
                     android:textSize="25sp"
                     tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
@@ -647,7 +662,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     app:adSize="BANNER"
-                    app:adUnitId="@string/ADMOB_BANNER_ID" />
+                    app:adUnitId="@string/ADMOB_BANNER_ID_2" />
 
             </LinearLayout>
 

@@ -78,7 +78,7 @@
                 android:layout_marginStart="20dp"
                 android:text="10"
                 android:textColor="#000000"
-                android:textSize="34sp" />
+                android:textSize="30sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -103,7 +103,7 @@
                 android:layout_marginEnd="68dp"
                 android:text="100 %"
                 android:textColor="#000000"
-                android:textSize="30sp" />
+                android:textSize="28sp" />
 
         </LinearLayout>
 
@@ -117,7 +117,7 @@
             android:gravity="center"
             android:text="Congratulations"
             android:textColor="#9C27B0"
-            android:textSize="34sp" />
+            android:textSize="30sp" />
 
         <LinearLayout
             android:layout_width="match_parent"

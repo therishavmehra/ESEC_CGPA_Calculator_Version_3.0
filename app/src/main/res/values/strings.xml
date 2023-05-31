@@ -3,7 +3,13 @@
     <string name="gpa"><u>Calculate Your GPA</u></string>
     <string name="cgpa"><u>Calculate Your CGPA</u></string>
     <string name="result"><u>Result</u></string>
-    <string name="ADMOB_BANNER_ID">ca-app-pub-6926702628956925/3083598726</string>
+    <string name="ADMOB_BANNER_ID">ca-app-pub-6926702628956925/1555798598</string>
     <string name="ADMOB_APP_ID">ca-app-pub-6926702628956925~2193324931</string>
-    <string name="ADMOB_BANNER_ID_2">ca-app-pub-6926702628956925/2570207801</string>
+    <string name="ADMOB_BANNER_ID_2">ca-app-pub-6926702628956925/2785900036</string>
+    <string name="ADMOB_INTERSTITIAL_AD">ca-app-pub-6926702628956925/8349255894</string>
+    <string name="grade"><u>Enter your number of Grades</u></string>
+    <string name="gpatext"><u>Enter Your Semester GPA</u></string>
+    <string name="acc_cgpatxt"><u>Enter the details of one semester at a time</u></string>
+    <string name="credits"><u>Credits</u></string>
+    <string name="grades"><u>Grades</u></string>
 </resources>

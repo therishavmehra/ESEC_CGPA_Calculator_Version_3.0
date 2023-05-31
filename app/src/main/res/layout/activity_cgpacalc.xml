@@ -9,6 +9,9 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
         tools:ignore="SpeakableTextPresentCheck">
 
         <LinearLayout
@@ -21,337 +24,319 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:layout_marginTop="10dp"
                 android:gravity="center"
                 android:text="@string/cgpa"
                 android:textColor="#FF0000"
                 android:textSize="34sp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.572"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.06" />
+                android:textStyle="bold"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="20dp"
-                android:layout_marginBottom="40dp"
                 android:orientation="horizontal">
 
                 <ImageView
-                    android:id="@+id/imageView2"
-                    android:layout_width="80dp"
-                    android:layout_height="70dp"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginEnd="10dp"
-                    app:srcCompat="@drawable/esec" />
+                    android:id="@+id/imageView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/gfx" />
 
                 <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/textView13"
                     android:layout_width="wrap_content"
-                    android:layout_height="90dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_weight="1"
                     android:fontFamily="@font/akaya_telivigala"
                     android:gravity="center"
-                    android:text="ERODE SENGUNTHAR ENGINEERING COLLEGE"
-                    android:textColor="#000000"
-                    android:textSize="16sp" />
+                    android:text="ERODE SENGUNTHAR EGINEERING COLLEGE"
+                    android:textColor="@color/black"
+                    android:textSize="17sp" />
 
                 <ImageView
-                    android:id="@+id/imageView"
-                    android:layout_width="90dp"
-                    android:layout_height="80dp"
-                    android:layout_marginStart="10dp"
-                    android:layout_marginEnd="10dp"
-                    app:srcCompat="@drawable/r"
-                    tools:layout_editor_absoluteX="276dp"
-                    tools:layout_editor_absoluteY="91dp" />
+                    android:id="@+id/imageView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/srr" />
+
             </LinearLayout>
 
             <TextView
                 android:id="@+id/textView8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="40dp"
                 android:gravity="center"
-                android:text="Enter Your Semester GPA"
-                android:textColor="#000000"
+                android:text="@string/gpatext"
+                android:textColor="@android:color/holo_green_dark"
+                android:textStyle="bold"
                 android:textSize="20sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="20dp"
-                android:layout_marginEnd="10dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/sem1"
+                    android:text="Sem 1"
+                    android:layout_marginEnd="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginEnd="20dp"
-                    android:layout_marginBottom="40dp"
+                    android:layout_gravity="center"
                     android:fontFamily="@font/armata"
-                    android:text="Sem 1 "
                     android:textColor="#113EC1"
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
                 <EditText
                     android:id="@+id/sem1_edtxt"
-                    android:layout_width="90dp"
-                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:background="@drawable/btn"
-                    android:ems="10"
                     android:inputType="numberDecimal"
-                    android:maxLength="4"
-                    android:minWidth="50dp"
-                    android:padding="5dp"
+                    android:gravity="center"
+                    android:maxLength="5"
+                    android:minWidth="90dp"
+                    android:minHeight="70dp"
                     android:textColor="#000000"
-                    android:textSize="34sp"
+                    android:textSize="30sp"
                     tools:ignore="SpeakableTextPresentCheck" />
 
-                <LinearLayout
+                <View
+                    android:id="@+id/view5"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
 
                     <TextView
                         android:id="@+id/sem2"
+                        android:layout_marginEnd="10dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginEnd="20dp"
-                        android:layout_marginBottom="40dp"
+                        android:layout_gravity="center"
                         android:fontFamily="@font/armata"
-                        android:text="Sem 2 "
                         android:textColor="#113EC1"
                         android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        android:text="Sem 2 " />
 
                     <EditText
                         android:id="@+id/sem2_edtxt"
-                        android:layout_width="90dp"
-                        android:layout_height="match_parent"
-                        android:layout_marginEnd="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/btn"
-                        android:ems="10"
+                        android:gravity="center"
                         android:inputType="numberDecimal"
-                        android:maxLength="4"
-                        android:padding="5dp"
+                        android:maxLength="5"
+                        android:minWidth="90dp"
+                        android:minHeight="70dp"
                         android:textColor="#000000"
-                        android:textSize="34sp"
-                        tools:ignore="SpeakableTextPresentCheck" />
-                </LinearLayout>
+                        android:textSize="30sp"
+                        tools:ignore="SpeakableTextPresentCheck"/>
+
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:layout_marginEnd="10dp"
                 android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/sem3"
+                    android:layout_marginEnd="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginEnd="20dp"
-                    android:layout_marginBottom="40dp"
+                    android:layout_gravity="center"
                     android:fontFamily="@font/armata"
-                    android:text="Sem 3"
                     android:textColor="#113EC1"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:text="Sem 3"
+                    />
 
                 <EditText
                     android:id="@+id/sem3_edtxt"
-                    android:layout_width="90dp"
-                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:background="@drawable/btn"
-                    android:ems="10"
                     android:inputType="numberDecimal"
-                    android:maxLength="4"
-                    android:minWidth="50dp"
-                    android:padding="5dp"
+                    android:maxLength="5"
+                    android:gravity="center"
+                    android:minWidth="90dp"
+                    android:minHeight="70dp"
                     android:textColor="#000000"
-                    android:textSize="34sp"
+                    android:textSize="30sp"
                     tools:ignore="SpeakableTextPresentCheck" />
 
-                <LinearLayout
+                <View
+                    android:id="@+id/view3"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
 
                     <TextView
                         android:id="@+id/sem4"
+                        android:layout_marginEnd="10dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="15dp"
-                        android:layout_marginEnd="20dp"
-                        android:layout_marginBottom="40dp"
+                        android:layout_gravity="center"
                         android:fontFamily="@font/armata"
-                        android:text="Sem 4"
                         android:textColor="#113EC1"
                         android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        android:text="Sem 4" />
 
                     <EditText
                         android:id="@+id/sem4_edtxt"
-                        android:layout_width="90dp"
-                        android:layout_height="match_parent"
-                        android:layout_marginEnd="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/btn"
-                        android:ems="10"
                         android:inputType="numberDecimal"
-                        android:maxLength="4"
-                        android:padding="5dp"
+                        android:gravity="center"
+                        android:maxLength="5"
+                        android:minWidth="90dp"
+                        android:minHeight="70dp"
                         android:textColor="#000000"
-                        android:textSize="34sp"
-                        tools:ignore="SpeakableTextPresentCheck" />
-                </LinearLayout>
+                        android:textSize="30sp"
+                        tools:ignore="SpeakableTextPresentCheck"/>
+
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:layout_marginEnd="10dp"
                 android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/sem5"
+                    android:layout_marginEnd="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginEnd="20dp"
-                    android:layout_marginBottom="40dp"
+                    android:layout_gravity="center"
                     android:fontFamily="@font/armata"
-                    android:text="Sem 5"
                     android:textColor="#113EC1"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:text="Sem 5" />
 
                 <EditText
                     android:id="@+id/sem5_edtxt"
-                    android:layout_width="90dp"
-                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:background="@drawable/btn"
-                    android:ems="10"
                     android:inputType="numberDecimal"
-                    android:maxLength="4"
-                    android:minWidth="50dp"
-                    android:padding="5dp"
+                    android:maxLength="5"
+                    android:minWidth="90dp"
+                    android:gravity="center"
+                    android:minHeight="70dp"
                     android:textColor="#000000"
-                    android:textSize="34sp"
+                    android:textSize="30sp"
                     tools:ignore="SpeakableTextPresentCheck" />
 
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
 
                     <TextView
                         android:id="@+id/sem6"
+                        android:layout_marginEnd="10dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="15dp"
-                        android:layout_marginEnd="20dp"
-                        android:layout_marginBottom="40dp"
+                        android:layout_gravity="center"
                         android:fontFamily="@font/armata"
-                        android:text="Sem 6"
                         android:textColor="#113EC1"
                         android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        android:text="Sem 6" />
 
                     <EditText
                         android:id="@+id/sem6_edtxt"
-                        android:layout_width="90dp"
-                        android:layout_height="match_parent"
-                        android:layout_marginEnd="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/btn"
-                        android:ems="10"
                         android:inputType="numberDecimal"
-                        android:maxLength="4"
-                        android:padding="5dp"
+                        android:maxLength="5"
+                        android:minWidth="90dp"
+                        android:minHeight="70dp"
+                        android:gravity="center"
                         android:textColor="#000000"
-                        android:textSize="34sp"
-                        tools:ignore="SpeakableTextPresentCheck" />
-                </LinearLayout>
+                        android:textSize="30sp"
+                        tools:ignore="SpeakableTextPresentCheck"/>
+
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
-                android:layout_marginEnd="10dp"
                 android:orientation="horizontal">
 
                 <TextView
                     android:id="@+id/sem7"
+                    android:layout_marginEnd="10dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="20dp"
-                    android:layout_marginEnd="20dp"
-                    android:layout_marginBottom="40dp"
+                    android:layout_gravity="center"
                     android:fontFamily="@font/armata"
-                    android:text="Sem 7"
                     android:textColor="#113EC1"
                     android:textSize="20sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:text="Sem 7" />
 
                 <EditText
                     android:id="@+id/sem7_edtxt"
-                    android:layout_width="90dp"
-                    android:layout_height="match_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:background="@drawable/btn"
-                    android:ems="10"
                     android:inputType="numberDecimal"
-                    android:maxLength="4"
-                    android:minWidth="50dp"
-                    android:padding="5dp"
+                    android:maxLength="5"
+                    android:minWidth="90dp"
+                    android:minHeight="70dp"
                     android:textColor="#000000"
-                    android:textSize="34sp"
+                    android:gravity="center"
+                    android:textSize="30sp"
                     tools:ignore="SpeakableTextPresentCheck" />
 
-                <LinearLayout
+                <View
+                    android:id="@+id/view1"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal">
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
 
                     <TextView
                         android:id="@+id/sem8"
+                        android:layout_marginEnd="10dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginStart="15dp"
-                        android:layout_marginEnd="20dp"
-                        android:layout_marginBottom="40dp"
+                        android:layout_gravity="center"
                         android:fontFamily="@font/armata"
-                        android:text="Sem 8"
                         android:textColor="#113EC1"
                         android:textSize="20sp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        android:text="Sem 8" />
 
                     <EditText
                         android:id="@+id/sem8_edtxt"
-                        android:layout_width="90dp"
-                        android:layout_height="match_parent"
-                        android:layout_marginEnd="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
                         android:background="@drawable/btn"
-                        android:ems="10"
                         android:inputType="numberDecimal"
-                        android:maxLength="4"
-                        android:padding="5dp"
+                        android:maxLength="5"
+                        android:minWidth="90dp"
+                        android:minHeight="70dp"
+                        android:gravity="center"
                         android:textColor="#000000"
-                        android:textSize="34sp"
-                        tools:ignore="SpeakableTextPresentCheck" />
-                </LinearLayout>
+                        android:textSize="30sp"
+                        tools:ignore="SpeakableTextPresentCheck"/>
+
 
             </LinearLayout>
 
